@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		604FB6FE1CB5B752005DD544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604FB6FD1CB5B752005DD544 /* AppDelegate.swift */; };
+		604FB7001CB5B752005DD544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604FB6FF1CB5B752005DD544 /* ViewController.swift */; };
+		604FB7031CB5B752005DD544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604FB7011CB5B752005DD544 /* Main.storyboard */; };
+		604FB7061CB5B752005DD544 /* TSA_Roulette.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 604FB7041CB5B752005DD544 /* TSA_Roulette.xcdatamodeld */; };
+		604FB7081CB5B752005DD544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604FB7071CB5B752005DD544 /* Assets.xcassets */; };
+		604FB70B1CB5B752005DD544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604FB7091CB5B752005DD544 /* LaunchScreen.storyboard */; };
+		604FB7161CB5B752005DD544 /* TSA_RouletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604FB7151CB5B752005DD544 /* TSA_RouletteTests.swift */; };
+		604FB7211CB5B752005DD544 /* TSA_RouletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604FB7201CB5B752005DD544 /* TSA_RouletteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		604FB7121CB5B752005DD544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604FB6F21CB5B751005DD544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604FB6F91CB5B751005DD544;
+			remoteInfo = "TSA Roulette";
+		};
+		604FB71D1CB5B752005DD544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604FB6F21CB5B751005DD544 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604FB6F91CB5B751005DD544;
+			remoteInfo = "TSA Roulette";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		604FB6FA1CB5B752005DD544 /* TSA Roulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSA Roulette.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		604FB6FD1CB5B752005DD544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		604FB6FF1CB5B752005DD544 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		604FB7021CB5B752005DD544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		604FB7051CB5B752005DD544 /* TSA_Roulette.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TSA_Roulette.xcdatamodel; sourceTree = "<group>"; };
+		604FB7071CB5B752005DD544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		604FB70A1CB5B752005DD544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		604FB70C1CB5B752005DD544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604FB7111CB5B752005DD544 /* TSA RouletteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TSA RouletteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		604FB7151CB5B752005DD544 /* TSA_RouletteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_RouletteTests.swift; sourceTree = "<group>"; };
+		604FB7171CB5B752005DD544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604FB71C1CB5B752005DD544 /* TSA RouletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TSA RouletteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		604FB7201CB5B752005DD544 /* TSA_RouletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_RouletteUITests.swift; sourceTree = "<group>"; };
+		604FB7221CB5B752005DD544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		604FB6F71CB5B751005DD544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604FB70E1CB5B752005DD544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604FB7191CB5B752005DD544 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		604FB6F11CB5B751005DD544 = {
+			isa = PBXGroup;
+			children = (
+				604FB6FC1CB5B752005DD544 /* TSA Roulette */,
+				604FB7141CB5B752005DD544 /* TSA RouletteTests */,
+				604FB71F1CB5B752005DD544 /* TSA RouletteUITests */,
+				604FB6FB1CB5B752005DD544 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		604FB6FB1CB5B752005DD544 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				604FB6FA1CB5B752005DD544 /* TSA Roulette.app */,
+				604FB7111CB5B752005DD544 /* TSA RouletteTests.xctest */,
+				604FB71C1CB5B752005DD544 /* TSA RouletteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		604FB6FC1CB5B752005DD544 /* TSA Roulette */ = {
+			isa = PBXGroup;
+			children = (
+				604FB6FD1CB5B752005DD544 /* AppDelegate.swift */,
+				604FB6FF1CB5B752005DD544 /* ViewController.swift */,
+				604FB7011CB5B752005DD544 /* Main.storyboard */,
+				604FB7071CB5B752005DD544 /* Assets.xcassets */,
+				604FB7091CB5B752005DD544 /* LaunchScreen.storyboard */,
+				604FB70C1CB5B752005DD544 /* Info.plist */,
+				604FB7041CB5B752005DD544 /* TSA_Roulette.xcdatamodeld */,
+			);
+			path = "TSA Roulette";
+			sourceTree = "<group>";
+		};
+		604FB7141CB5B752005DD544 /* TSA RouletteTests */ = {
+			isa = PBXGroup;
+			children = (
+				604FB7151CB5B752005DD544 /* TSA_RouletteTests.swift */,
+				604FB7171CB5B752005DD544 /* Info.plist */,
+			);
+			path = "TSA RouletteTests";
+			sourceTree = "<group>";
+		};
+		604FB71F1CB5B752005DD544 /* TSA RouletteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				604FB7201CB5B752005DD544 /* TSA_RouletteUITests.swift */,
+				604FB7221CB5B752005DD544 /* Info.plist */,
+			);
+			path = "TSA RouletteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		604FB6F91CB5B751005DD544 /* TSA Roulette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604FB7251CB5B752005DD544 /* Build configuration list for PBXNativeTarget "TSA Roulette" */;
+			buildPhases = (
+				604FB6F61CB5B751005DD544 /* Sources */,
+				604FB6F71CB5B751005DD544 /* Frameworks */,
+				604FB6F81CB5B751005DD544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TSA Roulette";
+			productName = "TSA Roulette";
+			productReference = 604FB6FA1CB5B752005DD544 /* TSA Roulette.app */;
+			productType = "com.apple.product-type.application";
+		};
+		604FB7101CB5B752005DD544 /* TSA RouletteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604FB7281CB5B752005DD544 /* Build configuration list for PBXNativeTarget "TSA RouletteTests" */;
+			buildPhases = (
+				604FB70D1CB5B752005DD544 /* Sources */,
+				604FB70E1CB5B752005DD544 /* Frameworks */,
+				604FB70F1CB5B752005DD544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				604FB7131CB5B752005DD544 /* PBXTargetDependency */,
+			);
+			name = "TSA RouletteTests";
+			productName = "TSA RouletteTests";
+			productReference = 604FB7111CB5B752005DD544 /* TSA RouletteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		604FB71B1CB5B752005DD544 /* TSA RouletteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604FB72B1CB5B752005DD544 /* Build configuration list for PBXNativeTarget "TSA RouletteUITests" */;
+			buildPhases = (
+				604FB7181CB5B752005DD544 /* Sources */,
+				604FB7191CB5B752005DD544 /* Frameworks */,
+				604FB71A1CB5B752005DD544 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				604FB71E1CB5B752005DD544 /* PBXTargetDependency */,
+			);
+			name = "TSA RouletteUITests";
+			productName = "TSA RouletteUITests";
+			productReference = 604FB71C1CB5B752005DD544 /* TSA RouletteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		604FB6F21CB5B751005DD544 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iMillIndustries;
+				TargetAttributes = {
+					604FB6F91CB5B751005DD544 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7LU46WA9DB;
+					};
+					604FB7101CB5B752005DD544 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7LU46WA9DB;
+						TestTargetID = 604FB6F91CB5B751005DD544;
+					};
+					604FB71B1CB5B752005DD544 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7LU46WA9DB;
+						TestTargetID = 604FB6F91CB5B751005DD544;
+					};
+				};
+			};
+			buildConfigurationList = 604FB6F51CB5B751005DD544 /* Build configuration list for PBXProject "TSA Roulette" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 604FB6F11CB5B751005DD544;
+			productRefGroup = 604FB6FB1CB5B752005DD544 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				604FB6F91CB5B751005DD544 /* TSA Roulette */,
+				604FB7101CB5B752005DD544 /* TSA RouletteTests */,
+				604FB71B1CB5B752005DD544 /* TSA RouletteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		604FB6F81CB5B751005DD544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604FB70B1CB5B752005DD544 /* LaunchScreen.storyboard in Resources */,
+				604FB7081CB5B752005DD544 /* Assets.xcassets in Resources */,
+				604FB7031CB5B752005DD544 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604FB70F1CB5B752005DD544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604FB71A1CB5B752005DD544 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		604FB6F61CB5B751005DD544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604FB7061CB5B752005DD544 /* TSA_Roulette.xcdatamodeld in Sources */,
+				604FB7001CB5B752005DD544 /* ViewController.swift in Sources */,
+				604FB6FE1CB5B752005DD544 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604FB70D1CB5B752005DD544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604FB7161CB5B752005DD544 /* TSA_RouletteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604FB7181CB5B752005DD544 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604FB7211CB5B752005DD544 /* TSA_RouletteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		604FB7131CB5B752005DD544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604FB6F91CB5B751005DD544 /* TSA Roulette */;
+			targetProxy = 604FB7121CB5B752005DD544 /* PBXContainerItemProxy */;
+		};
+		604FB71E1CB5B752005DD544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604FB6F91CB5B751005DD544 /* TSA Roulette */;
+			targetProxy = 604FB71D1CB5B752005DD544 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		604FB7011CB5B752005DD544 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				604FB7021CB5B752005DD544 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		604FB7091CB5B752005DD544 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				604FB70A1CB5B752005DD544 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		604FB7231CB5B752005DD544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		604FB7241CB5B752005DD544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		604FB7261CB5B752005DD544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TSA Roulette/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMillIndustries.Open.TSA-Roulette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		604FB7271CB5B752005DD544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TSA Roulette/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMillIndustries.Open.TSA-Roulette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		604FB7291CB5B752005DD544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TSA RouletteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMillIndustries.Open.TSA-RouletteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSA Roulette.app/TSA Roulette";
+			};
+			name = Debug;
+		};
+		604FB72A1CB5B752005DD544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TSA RouletteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMillIndustries.Open.TSA-RouletteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSA Roulette.app/TSA Roulette";
+			};
+			name = Release;
+		};
+		604FB72C1CB5B752005DD544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TSA RouletteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMillIndustries.Open.TSA-RouletteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TSA Roulette";
+			};
+			name = Debug;
+		};
+		604FB72D1CB5B752005DD544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TSA RouletteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iMillIndustries.Open.TSA-RouletteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TSA Roulette";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		604FB6F51CB5B751005DD544 /* Build configuration list for PBXProject "TSA Roulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604FB7231CB5B752005DD544 /* Debug */,
+				604FB7241CB5B752005DD544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604FB7251CB5B752005DD544 /* Build configuration list for PBXNativeTarget "TSA Roulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604FB7261CB5B752005DD544 /* Debug */,
+				604FB7271CB5B752005DD544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		604FB7281CB5B752005DD544 /* Build configuration list for PBXNativeTarget "TSA RouletteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604FB7291CB5B752005DD544 /* Debug */,
+				604FB72A1CB5B752005DD544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		604FB72B1CB5B752005DD544 /* Build configuration list for PBXNativeTarget "TSA RouletteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604FB72C1CB5B752005DD544 /* Debug */,
+				604FB72D1CB5B752005DD544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		604FB7041CB5B752005DD544 /* TSA_Roulette.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				604FB7051CB5B752005DD544 /* TSA_Roulette.xcdatamodel */,
+			);
+			currentVersion = 604FB7051CB5B752005DD544 /* TSA_Roulette.xcdatamodel */;
+			path = TSA_Roulette.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 604FB6F21CB5B751005DD544 /* Project object */;
+}
