@@ -18,11 +18,11 @@ class ViewController: UIViewController {
     var arrayOfTSAMisery: [String] = [
         "Your 8 y/o must be stripped searched, by a known pedophile, the delay will cause you to miss your flight, you get no refund, and have to pay bail for your subsiquent actions",
         
-        "a lovely looking TSA agent is calling you to the inspetion station, whist patting you down she untentionally, yet firmly grabs your 1/2 hard cock, blisfully unaware it was dangiling there. She blushes and walks away. This is the only time this incident has been reported.",
+        "A lovely looking TSA agent is calling you to the inspection station, whist patting you down she unintentionally, yet firmly grabs your 1/2 hard cock, blissfully unaware it was dangling there. She blushes and walks away. This is the only time this incident has been reported.",
         
-        "Your Grandmother who you are escorting to a cancer hospital must recive the most thouro of TSA screanings, in the process, they bleed all the air from her oxegin tank, she does not survive ",
+        "Your Grandmother who you are escorting to a cancer hospital must receive the most thorough of TSA screenings, in the process, the TSA agents bleed all the air from her oxygen tank. She does not survive.",
         
-        "Upon running your name through the TSA databse, it was dicovered you have name simmilar in spelling to that of an IRA bomber, who died before you were born. You should feel luckey, must people never get to know why they are on the no fly list"
+        "Upon running your name through the TSA database, it was discovered you have name similar in spelling to that of an IRA bomber, who died before you were born. You should feel lucky, must people never get to know why they are on the no fly list"
     ]
     
     @IBAction func bigButtonHit(sender: UIButton) {
