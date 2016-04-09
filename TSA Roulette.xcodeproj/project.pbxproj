@@ -99,13 +99,9 @@
 		604FB6FC1CB5B752005DD544 /* TSA Roulette */ = {
 			isa = PBXGroup;
 			children = (
-				604FB6FD1CB5B752005DD544 /* AppDelegate.swift */,
 				604FB6FF1CB5B752005DD544 /* ViewController.swift */,
 				604FB7011CB5B752005DD544 /* Main.storyboard */,
-				604FB7071CB5B752005DD544 /* Assets.xcassets */,
-				604FB7091CB5B752005DD544 /* LaunchScreen.storyboard */,
-				604FB70C1CB5B752005DD544 /* Info.plist */,
-				604FB7041CB5B752005DD544 /* TSA_Roulette.xcdatamodeld */,
+				604FB72E1CB94A87005DD544 /* supporting files */,
 			);
 			path = "TSA Roulette";
 			sourceTree = "<group>";
@@ -126,6 +122,18 @@
 				604FB7221CB5B752005DD544 /* Info.plist */,
 			);
 			path = "TSA RouletteUITests";
+			sourceTree = "<group>";
+		};
+		604FB72E1CB94A87005DD544 /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				604FB70C1CB5B752005DD544 /* Info.plist */,
+				604FB7091CB5B752005DD544 /* LaunchScreen.storyboard */,
+				604FB7071CB5B752005DD544 /* Assets.xcassets */,
+				604FB7041CB5B752005DD544 /* TSA_Roulette.xcdatamodeld */,
+				604FB6FD1CB5B752005DD544 /* AppDelegate.swift */,
+			);
+			name = "supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
