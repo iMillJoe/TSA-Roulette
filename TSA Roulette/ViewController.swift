@@ -24,7 +24,9 @@ class ViewController: UIViewController {
         
         "Upon running your name through the TSA database, it was discovered you have name similar in spelling to that of an IRA bomber, who died before you were born. You should feel lucky, most people never get to know why they are on the no fly list",
         
-        "The TSA agent you are about to encounter has just seen a rather seedy video of his wife and 10 other men. He is going to take his anger out on you... \n\nI hear Gitmo is nice this time of year, happy travels."
+        "The TSA agent you are about to encounter has just seen a rather seedy video of his wife and 10 other men. He is going to take his anger out on you... \n\nI hear Gitmo is nice this time of year, happy travels.",
+        
+        "The Xray machine shows that you might have a knife in your bag. They manually check the bag and find that there is no knife. They repack the gun, magazine and mace very professionally before waving you on."
     ]
     
     @IBAction func bigButtonHit(sender: UIButton) {
@@ -54,11 +56,9 @@ class ViewController: UIViewController {
                     if coinFlip == 0 {
                         bigButton.setTitle("←", forState: UIControlState.Normal)
                         lefts += 1
-                        print("lefts:\(lefts)")
                     } else {
                         bigButton.setTitle("→", forState: UIControlState.Normal)
                         rights += 1
-                        print("rights:\(rights)")
                     }
                 }
                 // set the screan blank
