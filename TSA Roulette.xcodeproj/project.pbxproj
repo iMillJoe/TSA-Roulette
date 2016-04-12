@@ -15,6 +15,9 @@
 		604FB70B1CB5B752005DD544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 604FB7091CB5B752005DD544 /* LaunchScreen.storyboard */; };
 		604FB7161CB5B752005DD544 /* TSA_RouletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604FB7151CB5B752005DD544 /* TSA_RouletteTests.swift */; };
 		604FB7211CB5B752005DD544 /* TSA_RouletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604FB7201CB5B752005DD544 /* TSA_RouletteUITests.swift */; };
+		604FB7321CBC7648005DD544 /* snarkyRemark.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 604FB72F1CBC7648005DD544 /* snarkyRemark.PNG */; };
+		604FB7331CBC7648005DD544 /* rightArrow.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 604FB7301CBC7648005DD544 /* rightArrow.PNG */; };
+		604FB7341CBC7648005DD544 /* leftArrow.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 604FB7311CBC7648005DD544 /* leftArrow.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		604FB71C1CB5B752005DD544 /* TSA RouletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TSA RouletteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		604FB7201CB5B752005DD544 /* TSA_RouletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSA_RouletteUITests.swift; sourceTree = "<group>"; };
 		604FB7221CB5B752005DD544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604FB72F1CBC7648005DD544 /* snarkyRemark.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snarkyRemark.PNG; sourceTree = "<group>"; };
+		604FB7301CBC7648005DD544 /* rightArrow.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.PNG; sourceTree = "<group>"; };
+		604FB7311CBC7648005DD544 /* leftArrow.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftArrow.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,9 @@
 				604FB7071CB5B752005DD544 /* Assets.xcassets */,
 				604FB7041CB5B752005DD544 /* TSA_Roulette.xcdatamodeld */,
 				604FB6FD1CB5B752005DD544 /* AppDelegate.swift */,
+				604FB72F1CBC7648005DD544 /* snarkyRemark.PNG */,
+				604FB7301CBC7648005DD544 /* rightArrow.PNG */,
+				604FB7311CBC7648005DD544 /* leftArrow.PNG */,
 			);
 			name = "supporting files";
 			sourceTree = "<group>";
@@ -243,8 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				604FB7321CBC7648005DD544 /* snarkyRemark.PNG in Resources */,
+				604FB7341CBC7648005DD544 /* leftArrow.PNG in Resources */,
 				604FB70B1CB5B752005DD544 /* LaunchScreen.storyboard in Resources */,
 				604FB7081CB5B752005DD544 /* Assets.xcassets in Resources */,
+				604FB7331CBC7648005DD544 /* rightArrow.PNG in Resources */,
 				604FB7031CB5B752005DD544 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

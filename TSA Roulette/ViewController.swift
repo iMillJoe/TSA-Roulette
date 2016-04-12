@@ -18,18 +18,20 @@ class ViewController: UIViewController {
     var arrayOfTSAMisery: [String] = [
         "Your 8 y/o must be stripped searched, by a known pedophile, the delay will cause you to miss your flight, you get no refund, and have to pay bail for your subsiquent actions",
         
-        "A lovely looking TSA agent is calling you to the inspection station, whist patting you down she unintentionally, yet firmly grabs your 1/2 hard cock, blissfully unaware it was dangling there. She blushes and walks away. This is the only time this incident has been reported.",
+        "A lovely looking TSA agent called you to the inspection station, whist patting you down she unintentionally, yet firmly grabs your 1/2 hard cock, blissfully unaware it was dangling there. She blushes and walks away. This is the only time this incident has been reported.",
         
         "Your Grandmother who you are escorting to a cancer hospital must receive the most thorough of TSA screenings, in the process, the TSA agents bleed all the air from her oxygen tank. She does not survive.",
         
-        "Upon running your name through the TSA database, it was discovered you have name similar in spelling to that of an IRA bomber, who died before you were born. You should feel lucky, most people never get to know why they are on the no fly list"
+        "Upon running your name through the TSA database, it was discovered you have name similar in spelling to that of an IRA bomber, who died before you were born. You should feel lucky, most people never get to know why they are on the no fly list",
+        
+        "The TSA agent you are about to encounter has just seen a rather seedy video of his wife and 10 other men. He is going to take his anger out on you... \n\nI hear Gitmo is nice this time of year, happy travels."
     ]
     
     @IBAction func bigButtonHit(sender: UIButton) {
         
         if let buttonLabel = bigButton.currentTitle {
 
-            bigButton.titleLabel?.font = UIFont.boldSystemFontOfSize(260)
+
             switch buttonLabel {
             case "": //if the screen is blank, roll the dice!
                 
@@ -41,8 +43,10 @@ class ViewController: UIViewController {
                     let thisMishap = arc4random_uniform(UInt32(arrayOfTSAMisery.count))
                     bigButton.titleLabel?.font = UIFont.systemFontOfSize(30)
                     bigButton.setTitle(arrayOfTSAMisery[Int(thisMishap)], forState: UIControlState.Normal)
+                    print("\(Int(thisMishap))")
         
                 } else {
+                    bigButton.titleLabel?.font = UIFont.boldSystemFontOfSize(260)
                     
                     let coinFlip = arc4random_uniform(2)
                     print("coinFlip: \(coinFlip)")
@@ -62,8 +66,8 @@ class ViewController: UIViewController {
             default:
                 bigButton.setTitle("", forState: UIControlState.Normal)
             }
+            print("\n")
         }
-        print("\n")
     }
     
     
