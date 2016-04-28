@@ -26,7 +26,9 @@ class ViewController: UIViewController {
         
         "The TSA agent you are about to encounter has just seen a rather seedy video of his wife and 10 other men. He is going to take his anger out on you... \n\nI hear Gitmo is nice this time of year, happy travels.",
         
-        "The Xray machine shows that you might have a knife in your bag. They manually check the bag and find that there is no knife. They repack the gun, magazine and mace very professionally before waving you on."
+        "The Xray machine shows that you might have a knife in your bag. They manually check the bag and find that there is no knife. They repack the gun, magazine and mace very professionally before waving you on.",
+        
+        "The TSA randomiser, is a truely random app, you are now stuck in a long line, after an unbliviable 87 lefts in a row"
     ]
     
     @IBAction func bigButtonHit(sender: UIButton) {
